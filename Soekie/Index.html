@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Soekie</title>
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="shortcut icon" href="Images\Favicon.png" type="image/x-icon">
+<style type="text/css">
+    .mainContainer{
+    	margin: 20px;
+    }
+    .signInButton{
+      background-color:#eb4335;
+      border-width:1px;
+      border-style: solid;
+      border-radius: 5px;
+      border-color:#fff;
+
+    }
+    .top-buffer { margin-top:20px; }
+    .btnSearch{
+
+      background-color:inherit;
+      border-color:Black;
+      color:Black;"
+    }
+
+    .btnSearch:hover{
+      background-color:inherit;
+    }
+
+    @media only screen and (max-width: 600px) {
+    #btnGroup {
+        margin-right: -60px;
+    }
+
+}
+
+
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(255,255,255,.8);
+}
+#login-dp .help-block{
+    font-size:12px
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+}
+
+</style>
+</head>
+<body background="Images\wallpaper.jpg">
+<div class="mainContainer" >
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<body>
+
+<nav class="navbar navbar-default navbar-inverse" role="navigation">
+<div class="container-fluid">
+
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+
+  </div>
+
+
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+      <li><a href="#">Music</a></li>
+      <li><a href="#">Sports</a></li>
+      <li><a href="#">News</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Smail</a></li>
+      <li><a href="#">Images</a></li>
+      <li><a href="#">Maps</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Sign-in</b> <span class="caret"></span></a>
+    <ul id="login-dp" class="dropdown-menu">
+      <li>
+         <div class="row">
+            <div class="col-md-12">
+               <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+                  <div class="form-group">
+                     <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                     <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+                  </div>
+                  <div class="form-group">
+                     <label class="sr-only" for="exampleInputPassword2">Password</label>
+                     <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                           <div class="help-block text-right"><a href="">Forgot password ?</a></div>
+                  </div>
+                  <div class="form-group">
+                     <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+                  </div>
+                  <div class="checkbox">
+                     <label>
+                     <input type="checkbox"> keep me logged-in
+                     </label>
+                  </div>
+               </form>
+            </div>
+            <div class="bottom text-center">
+              Don't Have an account ? <a href="#"><b>Register.</b></a>
+            </div>
+         </div>
+      </li>
+    </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+    <div class="page-header center text-center" style="opacity:0.0">
+
+    </div>
+    <div class="page-header center text-center" style="opacity:0.0">
+
+    </div>
+    <div class="page-header center text-center" style="border-bottom-color:#eee0;">
+          <img class="image-responsive" alt="Soekie Logo" src="Images\Logo-Smal.png">
+    </div>
+
+    <div class="container-fluid">
+
+    <div class="row ">
+
+      <div class="col-md-2"></div>
+     <div class="col-md-8">
+       <input type="text" style="opacity:0.8; border-color:black;" class="form-control input-lg" name="Search" placeholder="Wat soek jy..?">
+
+     </div>
+     <div class="col-md-4"></div>
+
+    </div>
+
+
+    <div class="row top-buffer ">
+
+      <div class="col-md-4"></div>
+      <div id="btnGroup" class="col-md-4" style="margin-left:90px;">
+        <button  type="button" class="btn btn-primary btnSearch"><i style="color:black;" class="fa fa-search"></i>Search</button>
+        <button id="btnFeelingLucky"  type="button" class="btn btn-primary btnSearch">Feeling lucky?</button>
+      </div>
+      <div class="col-md-4"></div>
+
+
+
+    </div>
+    </div>
+
+
+
+</div>
+</body>
+
+<footer style="color:#fff" class="center text-center">
+
+  <p>Soekie offered in: <a style="color:Red;" href="#">Tsotsi Taal.</a></p>
+
+</footer>
+
+<div style="margin-top:250px;color:#000;" class="center-block text-center">
+
+  <p>&copy Soekie 2018</p>
+
+</div>
+</html>
